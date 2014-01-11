@@ -60,7 +60,7 @@ Check the order is valid:
 
 Submit the order:
 
-    pwinty_order.submit()
+    order.submit()
 
 
 Retrieving a previous order
