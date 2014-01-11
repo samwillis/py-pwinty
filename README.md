@@ -1,11 +1,11 @@
-py-pwinty: Python client for the Pwinty photo printing API
-==========================================================
+py-pwinty
+=========
 
 This library implements a Python client for the [Pwinty photo printing API](http://www.pwinty.com/Api). to make things a little more "Pythonic" all attributes are avalible in CamelCase as well as their original under_score notation.
 
 
 Requirements
-============
+------------
 
 * This has only been tested on Python 2.7, it will probably work on 2.6+. It does not currently support Python 3.
 
@@ -13,14 +13,14 @@ Requirements
 
 
 Installing
-==========
+----------
 It can be installed using PIP from PyPi:
 
     > pip install pwinty
 
 
 Placing an order
-================
+----------------
 
 Import pwinty and set your API Key and Merchent ID:
 
@@ -64,7 +64,7 @@ Submit the order:
 
 
 Retrieving a previous order
-===========================
+---------------------------
 
 You can retrieve a previous order and check its status like so:
 
